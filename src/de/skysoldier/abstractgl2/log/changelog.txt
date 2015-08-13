@@ -1,0 +1,20 @@
+2014
+
+- restructured and refactored code for full OOP support
+- .obj model loading support
+- minor bug fixes
+
+30.03.2015
+
+- per object textures
+
+03.04.2015
+
+- refactored mesh structure. removed MeshData
+- assets should be created with ViewPart#createAsset, smaller
+  prittier use code now
+- started to port glsl commun to use AGLGlslVariableType, not ready yet
+- attributes are extracted in shader class automatically now, no need of ugly 
+  attrib arrays.
+  
+TODO: auto uniform extraction, AGLUniformType refactoring
